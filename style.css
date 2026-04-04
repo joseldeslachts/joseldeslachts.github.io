@@ -160,6 +160,13 @@ h1 {
   font-size: 51px;
   font-weight: 500;
 }
+h2 {
+  margin-left: 16%;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+}
 .section a,
 .text a {
   font-size: 16px;
@@ -185,7 +192,7 @@ footer{
 
 
 @media (max-width: 1258px){
-  h1, .section, .perfil, .fotocv{margin-left: 8%;}
+  h1, h2, .section, .perfil, .fotocv{margin-left: 8%;}
   #aparecer{text-align:left; margin-left: 8%;}
   #menu-icon{cursor: pointer;}
 }
@@ -314,6 +321,9 @@ footer{
     font-weight: 400;
     line-height: 44px;
   }
+  h2 {
+    margin-left: 15px;
+  }
   .section{
     margin-bottom: 25px;
   }
@@ -333,4 +343,3 @@ footer{
       padding: 4vw 4vw; 
   }
 }
-
